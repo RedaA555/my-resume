@@ -1,0 +1,132 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            font-weight: bold;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        header {
+            background-color: #F7F7F7;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 18px;
+            color: #666666;
+        }
+
+        
+        .education {
+            margin-bottom: 20px;
+        }
+        .education h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .education ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+        .education li {
+            margin-bottom: 10px;
+        }
+        .education .degree {
+            font-weight: bold;
+        }
+        .education .school {
+            color: #666666;
+        }
+
+   
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .project ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+        .project li {
+            margin-bottom: 10px;
+        }
+        .project .title {
+            font-weight: bold;
+        }
+        .project .description {
+            color: #666666;
+        }
+
+ 
+        .skills {
+            margin-bottom: 20px;
+        }
+        .skills h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+        .skills li {
+            margin-bottom: 10px;
+        }
+
+       
+        .contact {
+            margin-bottom: 20px;
+        }
+        .contact h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .contact ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+        .contact li {
+            margin-bottom: 10px;
+        }
+        section {
+  border-top: 1px solid black;
+  padding: 20px 0;
+}
+
+
+        @media screen and (max-width: 576px) {
+            header h1 {
+                font-size: 36px;
+            }
+            header p {
+                font-size: 16px;
+            }
+            .education h2,
+            .project h2,
+            .skills h2,
+            .contact h2 {
+                font-size: 20px;
+            }
+        }
